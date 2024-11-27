@@ -1,0 +1,105 @@
+schedule:
+  time_slots:
+    - day: Monday
+      time: "08:40"
+    - day: Monday
+      time: "10:35"
+    - day: Monday
+      time: "12:20"
+    - day: Tuesday
+      time: "08:40"
+    - day: Tuesday
+      time: "10:35"
+    - day: Wednesday
+      time: "08:40"
+    - day: Wednesday
+      time: "10:35"
+    - day: Wednesday
+      time: "12:20"
+    - day: Thursday
+      time: "08:40"
+    - day: Thursday
+      time: "10:35"
+  subjects:
+    - name: Decision-Making Theory
+      hours: 1
+    - name: Statistical Modeling in Artificial Intelligence Problems
+      hours: 2
+    - name: Information Technologies
+      hours: 2
+    - name: Software Engineering
+      hours: 2
+    - name: Intelligent Data Processing
+      hours: 2
+    - name: Algorhytm Complexity
+      hours: 1
+    - name: Intelligent Systems
+      hours: 1
+    - name: Neural Networks
+      hours: 2
+    - name: Computer Linguistics
+      hours: 1
+    - name: English
+      hours: 2
+  groups:
+    - name: TTP-41
+      capacity: 30
+      subject_names:
+        - Decision-Making Theory
+        - Information Technologies
+        - Algorhytm Complexity
+        - Intelligent Systems
+        - English
+    - name: MI-41
+      capacity: 25
+      subject_names:
+        - Decision-Making Theory
+        - Statistical Modeling in Artificial Intelligence Problems
+        - Information Technologies
+        - English
+        - Algorhytm Complexity
+        - Intelligent Systems
+        - Computer Linguistics
+    - name: TK-41
+      capacity: 25
+      subject_names:
+        - Decision-Making Theory
+        - Information Technologies
+        - Software Engineering
+        - Neural Networks
+        - Intelligent Data Processing
+  lecturers:
+    - name: Prof. Maschenko
+      can_teach_subjects:
+        - Decision-Making Theory
+    - name: Prof. Pashko
+      can_teach_subjects:
+        - Statistical Modeling in Artificial Intelligence Problems
+        - Intelligent Data Processing
+    - name: Prof. Vergunova
+      can_teach_subjects:
+        - Algorhytm Complexity
+    - name: Prof. Krak
+      can_teach_subjects:
+        - Software Engineering
+        - Neural Networks
+    - name: Dc. Tkachenko
+      can_teach_subjects:
+        - Information Technologies
+    - name: Dc. Krasovska
+      can_teach_subjects:
+        - English
+    - name: As. Taranukha
+      can_teach_subjects:
+        - Computer Linguistics
+        - Intelligent Systems
+    - name: As. Bobyl
+      can_teach_subjects:
+        - Neural Networks
+  halls:
+    - name: Auditorium 43
+      capacity: 100
+    - name: Auditorium 235
+      capacity: 30
+    - name: Auditorium 705
+      capacity: 25
